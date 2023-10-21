@@ -7,8 +7,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 
 // Below can be used when you're not using Eureka-server
-@FeignClient(url = "${address.service.url}",
-        value = "address-feign-client",
+//@FeignClient(url = "${address.service.url}",
+//        value = "address-feign-client",
+//        path = "/api/address")
+
+@FeignClient(value = "address-service",
         path = "/api/address")
 public interface AddressFeignClient {
 
