@@ -1,3 +1,4 @@
 include 'student'
 include 'address'
 include 'common'
+include 'eureka-server'

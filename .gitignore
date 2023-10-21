@@ -37,4 +37,6 @@ gradle-app.setting
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
 
-# End of https://mrkandreev.name/snippets/gitignore-generator/#Java,Gradle
+# End of https://mrkandreev.name/snippets/gitignore-generator/#Java,Gradlegradle/
+#
+gradle/
