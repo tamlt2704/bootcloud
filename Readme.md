@@ -9,3 +9,6 @@ gradle projects
 3. test address service 
    curl 'http://localhost:8082/api/address/getById/1'
    curl 'http://localhost:8080/api/student/getById/1'
+
+calling through api gateway
+   curl 'http://localhost:9090/student-service/api/student/getById/1'
