@@ -20,3 +20,10 @@ calling through api gateway
 
 5. config server 
    curl 'http://localhost:8888/address-service/default
+6. refresh config
+   fetch current value
+      curl 'http://localhost:8082/api/address/test'
+   refresh
+      curl -X POST 'http://localhost:8082/actuator/refresh'
+   fetch current value
+      curl 'http://localhost:8082/api/address/test'
