@@ -14,3 +14,6 @@ calling through api gateway
    curl 'http://localhost:9090/student-service/api/student/getById/1'
 
    getting 404? wait a minute, it takes time for api gateway to discover services
+
+4. zipkin server
+   docker run -d -p 9411:9411 openzipkin/zipkin
