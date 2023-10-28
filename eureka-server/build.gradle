@@ -27,6 +27,9 @@ dependencies {
 //    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 //    implementation 'org.postgresql:postgresql:42.6.0'
 
+    implementation 'org.springframework.cloud:spring-cloud-config-client'
+    implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
+
     compileOnly 'org.projectlombok:lombok:1.18.30'
     annotationProcessor 'org.projectlombok:lombok:1.18.30'
 
