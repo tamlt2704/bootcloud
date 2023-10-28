@@ -17,3 +17,6 @@ calling through api gateway
 
 4. zipkin server
    docker run -d -p 9411:9411 openzipkin/zipkin
+
+5. config server 
+   curl 'http://localhost:8888/address-service/default
